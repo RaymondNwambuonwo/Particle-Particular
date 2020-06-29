@@ -2,7 +2,7 @@
 
 # About
 
-This was a simple project working with JavaScript to create a particle effect. I created a rain particle effect with interactivity. First time working with the Particle.JS package and I appreciate the wide range of uses.
+This was a simple project working with JavaScript to create a particle effect. I created a rain particle effect with interactivity that runs indefinitely. First time working with the Particle.JS package and I appreciate the wide range of uses.
 
 # Technologies Used
 
