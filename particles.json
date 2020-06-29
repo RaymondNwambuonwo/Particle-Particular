@@ -36,14 +36,14 @@
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 20,
+        "speed": 25,
         "size_min": 0.1
       }
     },
     "line_linked": {
       "enable": false,
-      "distance": 50,
-      "color": "#ffffff",
+      "distance": 1,
+      "color": "#000",
       "opacity": 0.6,
       "width": 1
     },
