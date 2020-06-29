@@ -1,38 +1,18 @@
 {
   "particles": {
     "number": {
-      "value": 1500,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
+      "value": 1800
     },
     "shape": {
       "type": "image",
-      "stroke": {
-        "width": 3
-      },
       "image": {
         "src": "https://static.zoonar.com/img/www_repository3/22/14/a2/10_a4f399c7b47f89d407a58676a26d4f21.jpg",
         "width": 2,
         "height": 1
       }
     },
-    "opacity": {
-      "value": 0.7,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
     "size": {
-      "value": 4,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": true,
@@ -41,11 +21,11 @@
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 1,
+      "enable": true,
+      "distance": 2,
       "color": "#000",
-      "opacity": 0.6,
-      "width": 1
+      "opacity": 0,
+      "width": 0
     },
     "move": {
       "enable": true,
@@ -59,7 +39,7 @@
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "bubble"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
@@ -68,31 +48,11 @@
         "resize": true
       },
       "modes": {
-        "grab": {
-          "distance": 150,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "bubble": {
-          "distance": 200,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
         "repulse": {
           "distance": 200,
           "duration": 0.2
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
         }
       }
-    },
-    "retina_detect": true
+    }
   }
 }
